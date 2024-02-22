@@ -1,9 +1,11 @@
-# MultiStep Form
+# MultiStep Form 🧙🏻‍♂️
+
+[![CodeFactor](https://www.codefactor.io/repository/github/teschiopol/multistep-form-vue/badge/master)](https://www.codefactor.io/repository/github/teschiopol/multistep-form-vue/overview/master)
 
 I needed a multistep form, with separate view, validation and store data.
 
-- Vee Validate
-- Pinia
+- Vee Validate ✅
+- Pinia 🍍
 
 All folders are already split to scale up.
 

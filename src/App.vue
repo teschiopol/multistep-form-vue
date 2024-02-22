@@ -27,6 +27,7 @@
 
       <template v-if="currentStep === 2">
         <StepThree/>
+        <ExtraField v-if="store.getExtra"/>
       </template>
 
       <template v-if="currentStep === 3">
@@ -61,10 +62,11 @@ import StepTwo from "@/components/StepTwo.vue";
 import StepThree from "@/components/StepThree.vue";
 import StepFour from "@/components/StepFour.vue";
 import {useFormStore} from "@/stores/form";
+import ExtraField from "@/components/ExtraField.vue";
 
 export default {
   name: 'App',
-  components: {StepFour, StepThree, StepTwo, StepOne, Form},
+  components: {ExtraField, StepFour, StepThree, StepTwo, StepOne, Form},
   setup() {
 
     const initialValues = ref({});
@@ -110,7 +112,7 @@ export default {
     }
 
     return {
-      initialValues, currentStep, forma,
+      initialValues, currentStep, forma, store,
       currentSchema,
       nextStep, prevStep
     }

@@ -22,6 +22,10 @@ export const useFormStore = defineStore('form', {
                 return data;
             }
             return false;
+        },
+        getExtra(state) {
+            return state.postal === '999';
+
         }
     },
     actions: {

@@ -1,0 +1,39 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;  max-width: 500px;
+    padding-bottom: 100px;
+}
+
+input {
+    display: block;
+}
+
+span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button[type='submit'] {
+    margin-top: 10px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 14px;
+}
